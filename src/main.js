@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-// import axios from 'axios'
 import store from './store/store.js'
 import {request} from './network/request.js';
 import toast from 'components/common/toast/toast.js'
@@ -36,8 +35,3 @@ new Vue({
 // 		page:5
 // 	}
 // })]).then(res=>console.log(res))
-
-
-//  request({
-// 	url:'/category'
-//  }).then(res=>console.log(res)).catch(err=>console.log(err))
